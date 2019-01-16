@@ -7,7 +7,6 @@ def clients():
     pass
 
 
-
 @clients.command()
 @click.pass_context
 def create(ctx, name, company, email, position):
